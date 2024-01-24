@@ -1,0 +1,158 @@
+#mainpart{
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    display:flex ;
+    justify-content:center;
+    align-items: center;
+    height:400px;
+}
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+h1 {
+  font-size: calc(20px + 18vh);
+  line-height: calc(20px + 20vh);
+/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+#name2{
+    font-family: "Audiowide", sans-serif;
+    font-size:1.5em;
+    color:rgb(241, 128, 14);
+    text-align:center;
+    
+}
+.shayaan
+{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+}
+.two
+{
+    margin-top:100px;
+    text-align:center;
+    height:100px;
+  
+}
+body{
+    background-color: #e2c9be;
+    background-image: linear-gradient(315deg, #e2c9be 0%, #fbf7e9 74%);
+    
+    
+}
+.three
+{
+    text-align:center;
+    margin-top:270px;
+}
+#name3
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+}
+#name4
+{
+    font-weight:bold;
+    font-size: large;
+    color:rgb(242, 164, 18);
+}
+#footer
+{
+    margin-top:100px;
+    height:120px;
+    text-align:center;
+    background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #ff7878 74%);
+
+}
+.up>img{
+    float:left;
+}
+.up>p{
+    float:right;
+}
+.up{
+    
+    display:flex;
+    width:700px;
+    justify-content:space-between;
+    margin-left:310px;
+}
+.five{
+    margin-top:100px;
+    text-align:center;
+}
+.button
+{
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+    color:white;
+    font-size:20px;
+}
+.foot1
+{
+    color:rgb(132, 56, 9);
+}
+.down{
+    margin-top:100px;
+    display:flex;
+    width:700px;
+    justify-content:space-between;
+    margin-left:310px;
+    
+}
